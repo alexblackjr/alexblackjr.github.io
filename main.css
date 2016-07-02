@@ -1,0 +1,202 @@
+body{
+    background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png");
+    font-family: 'Open Sans';
+}
+
+#calcBody{
+    position: relative;
+    background: tomato;
+    top: 120px;
+    height: 570px;
+    width: 22.7% ;
+    margin: 0 auto;
+    border: 2px solid tomato;
+    border-radius: 30px;
+    box-shadow: -10px 10px 5px #888888;
+    -moz-transform: translate(0%, -13%);
+}
+
+.screen{
+    float: right;
+    width: 82.36% /*380px*/;
+    height: 110px;
+    background: dimgrey;
+    position: relative;
+    margin: 0 auto;
+    top: 26px;
+    left: -28px;
+    border-radius: 10px;
+    outline:none;
+    padding-right: 20px;
+    -moz-transform: translate(2.5%, 0%);
+}
+
+#screen{
+    position: relative;
+    top: -25px;
+    float: right;
+    font-size: 350%;
+}
+
+#input{
+    position: absolute;
+    top: 90px;
+    left: 47px;
+    width: 410px;
+    -moz-transform: translate(-10.5%, 0%);
+}
+
+#clearScreen{
+    font-family: 'Open Sans';
+    position: relative;
+    float: left;
+    top: 85px;
+    left: 10px;
+    padding: 5px 10px 5px 3px;
+    background: #ffc300;
+    color: white;
+    height: 64px;
+    width: 64px;
+    border: 5px solid #ffc300;
+    border-radius: 11px;
+    font-size: 210%;
+    font-weight: 600;
+    margin-right: 20px;
+    outline:none;
+}
+
+.whtBtns{
+    position: relative;
+    height: 55px;
+    width: 45px;
+    background: white;
+    border-radius: 11px;
+    float: left;
+    top: 84px;
+    left: 8px;
+    padding: 5px 10px;
+    outline:none;
+    z-index: 2;
+    margin-right: 20px;
+}
+
+.buttons{
+    position: relative;
+    float: left;
+    top: 80px;
+    padding: 5px 10px;
+    outline:none;
+    z-index: 2;
+}
+
+.behindButton{
+    background: white;
+    width: 53px;
+    height: 50px;
+    z-index: 1;
+    position: absolute;
+    float: right;
+    top: 90px;
+    left: 264px;
+    margin: 5px 5px;
+}
+
+.behind_3{
+    top: 50px;
+    left: 460px;
+}
+
+.behind_4{
+    top: 160px;
+    left: 10px;
+}
+
+.behind_5{
+    top: 160px;
+    left: 92px;
+}
+
+.behind_6{
+    top: 160px;
+    left: 180px;
+}
+
+.behind_7{
+    top: 160px;
+    left: 264px;
+}
+
+.behind_8{
+    top: 230px;
+    left: 10px;
+}
+
+.behind_9{
+    top: 230px;
+    left: 94px;
+}
+
+.behind_10{
+    top: 232px;
+    left: 180px;
+}
+
+.behind_11{
+    top: 232px;
+    left: 264px;
+}
+
+.behind_12{
+    top: 304px;
+    left: 10px;
+}
+
+.behind_13{
+    top: 304px;
+    left: 94px;
+}
+
+.behind_14{
+    top: 306px;
+    left: 180px;
+}
+
+.behind_15{
+    top: 306px;
+    left: 264px;
+}
+
+.behind_16{
+    top: 378px;
+    left: 10px;
+}
+
+.behind_17{
+    top: 380px;
+    left: 180px;
+}
+
+.behind_18{
+    top: 380px;
+    left: 264px;
+}
+
+#decimal{
+    background: rgb(66, 192, 251);
+    color: white;
+    height: 64px;
+    width: 64px;
+    font-size: 55px;
+    position: relative;
+    float: left;
+    top: 85px;
+    left: 10px;
+    padding: 5px 10px 5px 13px;
+    border: 5px solid rgb(66, 192, 251);
+    border-radius: 11px;
+    line-height: 10px;
+    margin-right: 20px;
+    outline:none;
+}
+
+

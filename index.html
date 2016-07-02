@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <!-- <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css"> -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+    <link href="main.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="calcBody">
+        <!-- Calculator screen-->
+        <div class="screen">
+            <h1  id="screen">0</h1>
+        </div>
+        <!-- Buttons-->
+        <div id="input">
+            <div  id="btnZone">
+                <button id="clearScreen" onclick="clearAll()">AC</button>
+
+                <input class="whtBtns" id="sqrRoot" type="image" onclick="squareRoot()" src="icons/ff6347-square-root-2-64.png" value="sqrRoot">
+
+                <input class="whtBtns" type="image" onclick="percent()" src="icons/ff6347-percentage-2-64.png" value="percent">
+
+                <input class="buttons" id="divide" type="image" onclick="grabNumber(this.id)" src="icons/4fb87c-divide-64.png" value="divide">
+                <div class="behindButton behind_4"></div>
+                <input class="buttons" id="seven" onclick="buttonValue(this.id)" type="image" src="icons/7-filled-64.png" value="7">
+                <div class="behindButton behind_5"></div>
+                <input class="buttons" id="eight" onclick="buttonValue(this.id)" type="image" src="icons/8-filled-64.png" value="8">
+                <div class="behindButton behind_6"></div>
+                <input class="buttons" id="nine" onclick="buttonValue(this.id)" type="image" src="icons/9-filled-64.png" value="9">
+                <div class="behindButton behind_7"></div>
+                <input class="buttons" id="multiply" type="image" onclick="grabNumber(this.id)" src="icons/4fb87c-multiply-64.png" value="multiply">
+                <div class="behindButton behind_8"></div>
+                <input class="buttons" id="four" onclick="buttonValue(this.id)" type="image" src="icons/4-filled-64.png" value="4">
+                <div class="behindButton behind_9"></div>
+                <input class="buttons" id="five" onclick="buttonValue(this.id)" type="image" src="icons/5-filled-64.png" value="5">
+                <div class="behindButton behind_10"></div>
+                <input class="buttons" id="six" onclick="buttonValue(this.id)" type="image" src="icons/6-filled-64.png" value="6">
+                <div class="behindButton behind_11"></div>
+                <input class="buttons" id="subtract" type="image" onclick="grabNumber(this.id)" src="icons/4fb87c-minus-64.png" value="subtract">
+                <div class="behindButton behind_12"></div>
+                <input class="buttons" id="one" onclick="buttonValue(this.id)" type="image" src="icons/1-filled-64.png" value="1">
+                <div class="behindButton behind_13"></div>
+                <input class="buttons" id="two" onclick="buttonValue(this.id)" type="image" src="icons/2-filled-64.png" value="2">
+                <div class="behindButton behind_14"></div>
+                <input class="buttons" id="three" onclick="buttonValue(this.id)" type="image" src="icons/3-filled-64.png" value="3">
+                <div class="behindButton behind_15"></div>
+                <input class="buttons" id="add" type="image" onclick="grabNumber(this.id)" src="icons/4fb87c-plus-64.png" value="add">
+                <div class="behindButton behind_16"></div>
+                <input class="buttons" id="zero" onclick="buttonValue(this.id)" type="image" src="icons/0-filled-64.png" value="0">
+                <div class="behindButton behind_17"></div>
+                <button id="decimal" onclick="setDecimal()" value=".">.</button>
+                <input class="buttons" type="image" onclick="changeSign()" src="icons/plus-minus-64.png" value="sign">
+                <div class="behindButton behind_18"></div>
+                <div class="behindButton"></div>
+                <input class="buttons" id="equalSign" type="image" onclick="answer()" src="icons/4fb87c-equal-sign-64.png" value="equalSign">
+                <div class="behindButton"></div>
+
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
